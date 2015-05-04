@@ -129,7 +129,7 @@ $domain = str_replace('www.', '', $domain);
 					<td><small style="font-size:12px;">When you're a moderator of comments you will see notifications in facebook.com. If you want to see all comments in one area, use the link to the left.</small></td>
 				</tr>
 				<tr valign="top"><th scope="row"><label for="appID">Moderators</label></th>
-					<td><input id="mods" type="text" name="fbcomments[mods]" value="<?php echo $options['mods']; ?>" size="50" /><br><small style="font-size:12px;">By default, all admins to the App ID can moderate comments. To add moderators, enter each Facebook Profile ID by a comma <strong>without spaces</strong>. To find your Facebook User ID, click <a href="https://developers.facebook.com/tools/explorer/?method=GET&path=me" target="blank">here</a> where you will see your own. To view someone else's, replace "me" with their username in the input provided or select your app from above.</small></td>
+					<td><input id="mods" type="text" name="fbcomments[mods]" value="<?php echo $options['mods']; ?>" size="50" /><br><small style="font-size:12px;">By default, all admins to the App ID can moderate comments. To add moderators, enter each Facebook Profile ID by a comma <strong>without spaces</strong>. To find your Facebook User ID, click <a href="https://developers.facebook.com/tools/explorer/?method=GET&path=me" target="blank">here</a> where you will see your own. To view someone else's, replace "me" with their username in the input provided or select your app from above.If not working use <a href="http://ipics32.blogspot.com/p/get-your-facebook-id.html" target="blank">this</a>.</small></td>
 				</tr>
 			</table>
 
@@ -268,14 +268,9 @@ $domain = str_replace('www.', '', $domain);
 					<td><input id="width" type="text" name="fbcomments[width]" value="<?php echo $options['width']; ?>" /> <small style="font-size:12px;">Default is <strong>100%</strong>. Keep this to ensure that the comment box is responsive.</small></td>
 				</tr>
 				<tr valign="top"><th scope="row"><label for="title">Title</label></th>
-					<td><input id="title" type="text" name="fbcomments[title]" value="<?php echo $options['title']; ?>" /> with a CSS class of <input type="text" name="fbcomments[titleclass]" value="<?php echo $options['titleclass']; ?>" /></td>
+					<td><input id="title" type="text" name="fbcomments[title]" value="<?php echo $options['title']; ?>" />  <input type="text" name="fbcomments[titleclass]" value="<?php echo $options['titleclass']; ?>" /> <small style="font-size:12px;">Add a CSS class here to give style according to it.</small></td>
 				</tr>
-				<tr valign="top"><th scope="row"><label for="count">Show Comment Count</label></th>
-					<td><input id="count" name="fbcomments[count]" type="checkbox" value="on" <?php checked('on', $options['count']); ?> /></td>
-				</tr>
-				<tr valign="top"><th scope="row"><label for="countmsg">Comment text</label></th>
-					<td><input id="countmsg" type="text" name="fbcomments[countmsg]" value="<?php echo $options['countmsg']; ?>" /> with a CSS class of <input type="text" name="fbcomments[countstyle]" value="<?php echo $options['countstyle']; ?>" /></td>
-				</tr>
+				
 			</table>
 
 			<p class="submit">
@@ -300,10 +295,86 @@ $domain = str_replace('www.', '', $domain);
 </div>
 
 </div>
-      </div>
-    </div>
+      
+<div class="fbc_col">
+                            <div class="fbc_where">
+                                <h2 style="text-align:left;">   
+                                    Please support us!
+                                </h2>
+                                
+                              <hr>
+                                <div>
+                  
+              
+                        
+<div style="font-family: Georgia,&quot;Times New Roman&quot;,serif;font-style:italic;font-size: 18px; margin-top: 10px;">
+                                        Our Plugins:
+                                    </div>
+                                    <div style="margin-top:10px; margin-bottom: 8px;">
+ <a href="http://wordpress.org/plugin/facebook-page-like-popup-box/" target="_blank" style="width:90%; margin-top:5px; margin-bottom: 5px; "><strong>Facebook Page Like Popup Box</strong></a>
+ Allows you to add facebook page like in popup box easily.
+<div style="text-align: center;">
+                                        <a class="fbc_btn fbc_btn-success" href="http://wordpress.org/plugin/facebook-page-like-popup-box/" target="_blank" style="width:90%; margin-top:5px; margin-bottom: 5px; ">Download</a>
+                                    </div>
+                                    </div>
+                                    
+                                    <div style="margin-top:10px; margin-bottom: 8px;">
+ <a href="https://wordpress.org/plugins/new-facebook-comments/" target="_blank" style="width:90%; margin-top:5px; margin-bottom: 5px; "><strong>Facebook Comments</strong></a>
+ Allows you to add facebook comments system in your website easily.
+<div style="text-align: center;">
+                                        <a class="fbc_btn fbc_btn-success" href="https://wordpress.org/plugins/new-facebook-comments/" target="_blank" style="width:90%; margin-top:5px; margin-bottom: 5px; ">Download</a>
+                                    </div>
+                                    </div>
+                                </div>
+                                <hr>  
+                                
+                                
+                                <hr>
+                                <div>
+                                    <div style="font-family: Georgia,&quot;Times New Roman&quot;,serif;font-style:italic;font-size: 18px; margin-top: 10px;">
+                                        Please make a donation:
+                                    </div>
+                                    <div style="margin-top:0px; margin-bottom: 8px;">
+<div style="text-align:center;display:block;font-style:italic;font-family: Verdana,sans-serif;color: #FF0066;font-size: 18px;">
+<div style="text-align:center;display:block;font-size: 11px;font-style:italic;font-family: Verdana,sans-serif;color: #FF0066;">
+Your donation will help us in providing other useful plugins and <strong>support</strong>.</div>  
+  <div style="margin-top:5px;">   
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
 
 
+                                 
+</div>
+
+                                </div>
+                                </div>
+                                <hr>
+                                <div>
+                  
+              
+                        
+<div style="font-family: Georgia,&quot;Times New Roman&quot;,serif;font-style:italic;font-size: 18px; margin-top: 10px;">
+                                        Visit support for any issues:
+                                    </div>
+                                    <div style="margin-top:10px; margin-bottom: 8px;">
+<div style="text-align: center;">
+                                        <a class="fbc_btn fbc_btn-success" href="http://wordpress.org/support/plugin/new-facebook-comments/" target="_blank" style="width:90%; margin-top:5px; margin-bottom: 5px; ">Support!</a>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                                <hr>
+                                <div>                  
+                                    
+                                </div>
+                            </div>
+                        </div>    
 
 <?php
 }

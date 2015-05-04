@@ -36,7 +36,7 @@ Configure the plugin from 'Settings'.
 
 == Changelog ==
 = Version 1.1 =
-*Resolved some issues.
-*Resolved issues in settings page responsive style.
+* Resolved some issues.
+* Resolved issues in settings page responsive style.
 = Version 1.0 =
 **Initial release**

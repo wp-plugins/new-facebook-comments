@@ -3,9 +3,9 @@ Contributors: itayyab0o1
 Tags: comments, facebook, facebook comments, commenting, widgets, posts, post, pages, page, wordpress, Facebook Graph API 2.3,
 Requires at least: 3.1
 Tested up to: 4.2.1
-Stable tag: 1.1
+Stable tag: 1.2
 
-Facebook comments makes it simple to add the Facebook comments system to your WordPress site using new Facebook Graph API 2.3.
+Facebook comments makes it simple to add the Facebook comments system to your WordPress site using new Facebook Graph API 2.3, also allows the use of Facebook SDK 2.0.
 
 == Description ==
 
@@ -18,6 +18,7 @@ Facebook comments makes it simple to add the Facebook comments system to your Wo
 * Display facebook comments using shortcode.
 * Display facebook comments using php function.
 * Developed according to Facebook Graph API 2.3.
+* Also allows the use of Facebook SDK 2.0.
 
 **Requirements:**
 * Facebook app is needed (Details about facebook app are given on settings page).
@@ -35,6 +36,8 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 Configure the plugin from 'Settings'.
 
 == Changelog ==
+= Version 1.2 =
+* Added use of Facebook SDK 2.0.
 = Version 1.1 =
 * Resolved some issues.
 * Resolved issues in settings page responsive style.

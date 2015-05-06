@@ -144,7 +144,9 @@ $domain = str_replace('www.', '', $domain);
 				<tr valign="top"><th scope="row"><label for="fbml">Enable FBML</label></th>
 					<td><input id="fbml" name="fbcomments[fbml]" type="checkbox" value="on" <?php checked('on', $options['fbml']); ?> /> <small style="font-size:12px;">Only disable this if you already have XFBML enabled elsewhere in your theme/plugins.</small></td>
 				</tr>
-				
+				<tr valign="top"><th scope="row"><label for="old_sdk">Use old SDK</label></th>
+					<td><input id="old_sdk" name="fbcomments[old_sdk]" type="checkbox" value="on" <?php checked('on', $options['old_sdk']); ?> /> <small style="font-size:12px;">V2.3 of Facebook's SDK has some interface changes. If you want to use v2.0 of the SDK check this box.</small></td>
+				</tr>
 				<tr valign="top"><th scope="row"><label for="fbns">Use Facebook NameServer</label></th>
 					<td><input id="fbns" name="fbcomments[fbns]" type="checkbox" value="on" <?php checked('on', $options['fbml']); ?> /> <small style="font-size:12px;">Only enable this if Facebook Comments do not appear.</small></td>
 				</tr>

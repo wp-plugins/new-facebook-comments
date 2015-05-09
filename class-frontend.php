@@ -102,7 +102,7 @@ function fbcommentbox($content) {
 	    if ($options['linklove'] != 'no') {
 	        if ($options['linklove'] != 'off') {
 	            if (empty($fbcomments[linklove])) {
-	      			$content .= '<p>Powered by <a href="#">Facebook Comments</a></p>';
+	      			$content .= '<p>Powered by <a href="#">New Facebook Comments</a></p>';
     			}
     		}
     	}
@@ -150,7 +150,7 @@ function fbcommentshortcode($fbatts) {
      }
 
 	if (!empty($fbcomments['linklove'])) {
-      $fbcommentbox .= '<p>Powered by <a href="#">Facebook Comments</a></p>';
+      $fbcommentbox .= '<p>Powered by <a href="#">New Facebook Comments</a></p>';
 	}
   return $fbcommentbox;
 }

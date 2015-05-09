@@ -1,5 +1,5 @@
 <?php
-define("FBC_NAME","Facebook Comments");
+define("FBC_NAME","New Facebook Comments");
 define("FBC_TAGLINE","Adds Facebook Comments");
 define("FBC_URL","https://www.google.com/+tayyabismail0o1");
 define("FBC_EXTEND_URL","#");

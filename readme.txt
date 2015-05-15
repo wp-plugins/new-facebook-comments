@@ -7,8 +7,8 @@ Tags: comments, facebook, facebook comments, commenting, widgets, posts, post, p
 Requires at least: 3.1
 
 Tested up to: 4.2.2
-Stable tag: 1.3
 
+Stable tag: 2.2
 
 Facebook comments makes it simple to add the Facebook comments system to your WordPress site using new Facebook Graph API 2.3, also allows the use of Facebook SDK 2.0.
 

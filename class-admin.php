@@ -106,7 +106,7 @@ $domain = str_replace('www.', '', $domain);
 			<h3 class="title">You Need to Set Up your Facebook App ID!</h3>
 			<table class="form-table">
 				<tr valign="top"><th scope="row"><a href="https://developers.facebook.com/apps" style="text-decoration:none" target="_blank">Create an App to handle your comments</a></th>
-					<td><small style="font-size:12px;">Click <strong>+ Create New App</strong> to the top right of the page. Name the App something memorable e.g. "Comments". <small style="font-size:12px;">Ensure you enter <strong><?php echo $domain; ?></strong> in both "App Domains" and in the url fields.</small> Once you have done it enter app id here and press enter:</small><br><strong>APP ID: </strong><input id="appID" type="text" name="fbcomments[appID]" value="<?php echo $options['appID']; ?>" /><br><br>
+					<td><small style="font-size:12px;">Click <strong>'Create New App</strong>' to the top right of the page. Name the App something memorable e.g. "Comments". <small style="font-size:12px;">Ensure you enter <strong><?php echo $domain; ?></strong> in both "App Domains" and in the url fields.</small> Once you have done it enter app id here and press enter:</small><br><strong>APP ID: </strong><input id="appID" type="text" name="fbcomments[appID]" value="<?php echo $options['appID']; ?>" /><br><br>
 </td>
 				</tr>
 			</table>
@@ -118,7 +118,7 @@ $domain = str_replace('www.', '', $domain);
 					<td><small style="font-size:12px;">To set up, choose your App and click <strong>Edit Settings</strong>. Ensure you enter <strong><?php echo $domain; ?></strong> in both "App Domains" and in the url fields.</small></td>
 				</tr>
 				<tr valign="top"><th scope="row"><a href="https://developers.facebook.com/apps" style="text-decoration:none" target="_blank">Create a New App</a></th>
-					<td><small style="font-size:12px;">You have already entered your App ID, but if you want to set up a new one click <strong>+ Create New App</strong> to the top right of the page. Name the App something memorable e.g. "Comments".</small><small style="font-size:12px;">Ensure you enter <strong><?php echo $domain; ?></strong> in both "App Domains" and in the url fields.</small></td>
+					<td><small style="font-size:12px;">You have already entered your App ID, but if you want to set up a new one click <strong>' Create New App</strong>' to the top right of the page. Name the App something memorable e.g. "Comments".</small><small style="font-size:12px;">Ensure you enter <strong><?php echo $domain; ?></strong> in both "App Domains" and in the url fields.</small></td>
 				</tr>
 			</table>
 <?php } ?>

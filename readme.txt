@@ -54,6 +54,10 @@ Configure the plugin from 'Settings'.
 
 == Changelog ==
 
+= Version 2.2 =
+
+* Updated.
+* Removed issues.
 = Version 1.3 =
 
 * Removed some issues.
